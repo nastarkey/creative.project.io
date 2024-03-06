@@ -1,0 +1,13 @@
+body {
+    background-image: url('world.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(252, 247, 247); /* Make the text lighter */
+    text-align: center; /* Center everything */
+}
+
+.dropdown-content {
+    display: none;
+}
+
+

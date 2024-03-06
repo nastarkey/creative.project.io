@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>International Relations Lenses</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>International Relations Lenses</h1>
+    
+    <button onclick="toggleDropdown('realism')">Realism</button>
+    <div id="realismDropdown" class="dropdown-content">
+        <p>Information about realism goes here...</p>
+        <img src="war.jpg" alt="War Image">
+
+    </div>
+    
+    <button onclick="toggleDropdown('liberalism')">Liberalism</button>
+    <div id="liberalismDropdown" class="dropdown-content">
+        <p>Information about liberalism goes here...</p>
+        <img src="worktogether.jpg" alt="Collaboration">
+    </div>
+    
+    <button onclick="toggleDropdown('constructivism')">Constructivism</button>
+    <div id="constructivismDropdown" class="dropdown-content">
+        <p>Information about constructivism goes here...</p>
+        <img src="construct.jpg" alt="Social Construct">
+
+    </div>
+    
+    <script>
+        function toggleDropdown(lens) {
+            var dropdown = document.getElementById(lens + 'Dropdown');
+            dropdown.style.display = (dropdown.style.display === 'none') ? 'block' : 'none';
+        }
+    </script>
+</body>
+</html>
